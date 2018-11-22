@@ -115,14 +115,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <None Include="dijkstra.in" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Edge.hpp" />
-    <ClInclude Include="Graph.hpp" />
-    <ClInclude Include="Vertex.hpp" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
