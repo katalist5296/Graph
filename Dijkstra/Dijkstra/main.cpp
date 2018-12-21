@@ -6,9 +6,6 @@
 //
 // Author: Vyacheslav Borisenko
 //
-// License: MIT
-// ---------------------------------------------------------------------------
-
 #include <iostream>
 #include <algorithm>
 
@@ -90,7 +87,7 @@ void dijkstra(int from)
 
 int main()
 {
-	dijkstra(4);
+	dijkstra(0);
 	system("pause");
 	return 1;
 }
